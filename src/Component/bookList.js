@@ -13,7 +13,7 @@ const BooksList = () => {
     {
       id: 2,
       name: 'The Journey of Learning',
-      category: 'Motivational' ,
+      category: 'Motivational',
       author: 'John Smith',
     },
 
@@ -26,9 +26,9 @@ const BooksList = () => {
 
     {
       id: 4,
-      name: 'The Religion' ,
-      category:'Religion',
-      author: 'Hayya Fatima' ,
+      name: 'The Religion',
+      category: 'Religion',
+      author: 'Hayya Fatima',
     },
   ];
 
