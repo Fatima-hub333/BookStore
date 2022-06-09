@@ -1,29 +1,30 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import './App.css'
-import Navbar from './Component/Navbar'
-import PageCategory from './pages/PageCategory'
-import BookPage from './pages/BookPage'
-import NoMatch from './pages/NoMatch'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import './App.css';
+import Navbar from './Component/navibar';
+import Pagecategory from './pages/PageCatego';
+import BooksPage from './pages/PageBook';
+import NoMatch from './pages/nomatch';
+// import Footer from './Component/footer';
 
 class App extends React.Component {
   constructor(props) {
-    super(props)
-    this.state = {}
+    super(props);
+    this.state = {};
   }
 
   render() {
     return (
-      <div className='main-app'>
+      <div className="main-app">
         <Navbar />
         <Routes>
           <Route exact path="/" element={<BooksPage />} />
-          <Route path="/BookStore/PageCategory" element={<PageCategory />} />
-          <Route path="/BookStore/NoMatch" element={<NoMatch />} />
+          <Route path="/Bookstore/PageCatego" element={<Pagecategory />} />
+          <Route path="/Bookstore/nomatch" element={<NoMatch />} />
         </Routes>
+        {/* <Footer /> */}
       </div>
-
-    )
+    );
   }
 }
 
