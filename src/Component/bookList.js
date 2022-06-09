@@ -1,5 +1,5 @@
-import React from 'react'
-import Book from './Book'
+import React from 'react';
+import Book from './book';
 
 const BooksList = () => {
   const books = [
@@ -30,17 +30,17 @@ const BooksList = () => {
       category:'Religion',
       author: 'Hayya Fatima' ,
     },
-  ]
+  ];
 
   return (
     <div>
       <ul className="listBooks">
-        {books.map((Book) => (
+        {books.map((book) => (
           <Book
-            key={Book.id}
-            id={Book.id}
-            name={Book.name}
-            author={Book.author}
+            key={book.id}
+            id={book.id}
+            name={book.name}
+            author={book.author}
           />
         ))}
       </ul>
@@ -49,5 +49,3 @@ const BooksList = () => {
 };
 
 export default BooksList;
-
-
