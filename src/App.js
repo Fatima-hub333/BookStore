@@ -1,10 +1,11 @@
+/* eslint-disable import/extensions */
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './Component/navibar';
 import Pagecategory from './pages/PageCatego';
-import BooksPage from './pages/PageBook';
-import NoMatch from './pages/nomatch';
+import BooksPage from './pages/PageBook,js';
+import NoMatch from './pages/nomatch,js';
 // import Footer from './Component/footer';
 
 class App extends React.Component {
