@@ -1,5 +1,6 @@
 import React from 'react';
-import Book from './book';
+// eslint-disable-next-line import/extensions
+import Book from './book.js';
 
 const BooksList = () => {
   const books = [
