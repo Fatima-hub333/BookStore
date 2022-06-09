@@ -25,6 +25,18 @@
   text-decoration: none;
 }
 
+button {
+  width: 120px;
+  color: black;
+  font-weight: bolder;
+  font-size: 14px;
+  padding: 5px;
+}
+
+input {
+  padding: 6px;
+}
+
 .listBooks {
   display: flex;
   flex-direction: column;
