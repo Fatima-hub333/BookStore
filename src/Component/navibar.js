@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import links from '../routes';
 
-const NavBar = () => (
+const Navbar = () => (
   <header className="navcont">
     <h2>Bookstore CMS</h2>
     <ul className="navList">
@@ -16,4 +16,4 @@ const NavBar = () => (
   </header>
 );
 
-export default NavBar;
+export default Navbar;
