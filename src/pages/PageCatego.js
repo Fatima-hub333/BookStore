@@ -1,5 +1,9 @@
 import React from 'react';
 
-const Pagecategory = () => <button type="button">Check status</button>;
+const Pagecategory = () => (
+  <div className="status-btn">
+    <button type="button">Check status</button>
+  </div>
+);
 
 export default Pagecategory;
