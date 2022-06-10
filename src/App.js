@@ -2,7 +2,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './Component/Navibar';
+import Navbar from './Component/Navbar';
 import Pagecategory from './pages/PageCatego';
 import BooksPage from './pages/PageBook';
 import NoMatch from './pages/NoMatch';
@@ -20,7 +20,7 @@ class App extends React.Component {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<BooksPage />} />
-          <Route path="/Bookstore/PageCatego" element={<Pagecategory />} />
+          <Route path="/categories" element={<Pagecategory />} />
           <Route path="/Bookstore/NoMatch" element={<NoMatch />} />
         </Routes>
         <Footer />
