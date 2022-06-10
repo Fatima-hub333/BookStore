@@ -5,28 +5,28 @@ const BooksList = () => {
   const books = [
     {
       id: 1,
-      name: 'Fatima The successful Business Woman',
+      name: 'The successful Business Woman',
       category: 'Professionalism',
       author: 'Fatima Zahir',
     },
 
     {
       id: 2,
-      name: 'The Journey of Learning',
+      name: 'The Journey of Learning WDF',
       category: 'Motivational',
-      author: 'John Smith',
+      author: 'John Smith Gr',
     },
 
     {
       id: 3,
       name: 'The Passion of Earning Wealth',
       category: 'Sci-fic',
-      author: 'Adam Ught',
+      author: 'Adam Ught Ba',
     },
 
     {
       id: 4,
-      name: 'The Religion',
+      name: 'The Religion & The World Life',
       category: 'Religion',
       author: 'Hayya Fatima',
     },

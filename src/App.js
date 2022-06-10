@@ -2,11 +2,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './Component/navibar';
+import Navbar from './Component/Navibar';
 import Pagecategory from './pages/PageCatego';
-import BooksPage from './pages/PageBook.js';
-import NoMatch from './pages/nomatch.js';
-// import Footer from './Component/footer';
+import BooksPage from './pages/PageBook';
+import NoMatch from './pages/NoMatch';
+import Footer from './Component/Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -21,9 +21,9 @@ class App extends React.Component {
         <Routes>
           <Route exact path="/" element={<BooksPage />} />
           <Route path="/Bookstore/PageCatego" element={<Pagecategory />} />
-          <Route path="/Bookstore/nomatch" element={<NoMatch />} />
+          <Route path="/Bookstore/NoMatch" element={<NoMatch />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
