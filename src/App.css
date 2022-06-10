@@ -40,6 +40,12 @@ input {
   padding: 6px;
 }
 
+.status-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 .listBooks {
   display: flex;
   flex-direction: column;
