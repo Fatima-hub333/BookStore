@@ -1,6 +1,6 @@
 import React from 'react';
-import BooksList from '../Component/BookList';
-import BookAdd from '../Component/AddBook';
+import BooksList from '../Component/bookList';
+import BookAdd from '../Component/addBook';
 
 const BooksPage = () => (
   <div>
