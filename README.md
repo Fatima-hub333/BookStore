@@ -19,6 +19,7 @@ Additional description about the project and its features.
 
 - Frameworks
   - React Hook
+  - React Redux
 
 - Technologies used
   - github
