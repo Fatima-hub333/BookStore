@@ -1,8 +1,8 @@
-const STATUS_CHECK = 'bookstore/books/STATUS_CHECK'
+const STATUS_CHECK = 'bookstore/books/STATUS_CHECK';
 
-const initialState = []
+const initialState = [];
 
-export const statusCheck = () = ({ type: STATUS_CHECK });
+export const statusCheck = () => ({ type: STATUS_CHECK });
 
 const categories = (state = initialState, action) => {
   switch (action.type) {
@@ -11,6 +11,6 @@ const categories = (state = initialState, action) => {
     default:
       return state;
   }
-}
+};
 
 export default categories;
