@@ -8,8 +8,7 @@ const categories = (state = initialState, action) => {
   switch (action.type) {
     case STATUS_CHECK:
       return 'Under construction';
-    default:
-      return state;
+    default: return state;
   }
 };
 
