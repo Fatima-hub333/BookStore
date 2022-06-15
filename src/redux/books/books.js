@@ -6,27 +6,27 @@ const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 const initialState = [
   {
     id: uuidv4(),
-    title: 'Ada the pretty girl',
+    title: 'The Successful Women',
     category: 'Sci-Fi',
-    author: 'Adaobi Okoye',
+    author: 'Fatima Zahir',
   },
   {
     id: uuidv4(),
-    title: 'Ada the pretty girl',
-    category: 'Sci-Fi',
-    author: 'Adaobi Okoye',
+    title: 'Hayya My Life',
+    category: 'Motivational',
+    author: 'Fatimaaa',
   },
   {
     id: uuidv4(),
-    title: 'Ada the pretty girl',
+    title: 'The Life & Death',
     category: 'Sci-Fi',
-    author: 'Adaobi Okoye',
+    author: 'John Adatya',
   },
   {
     id: uuidv4(),
-    title: 'Ada the pretty girl',
+    title: 'The Wealth or The Love',
     category: 'Sci-Fi',
-    author: 'Adaobi Okoye',
+    author: 'Abraham Joliey',
   },
 ];
 
