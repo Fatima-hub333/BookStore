@@ -1,9 +1,6 @@
 import React from 'react';
+import Categories from '../Component/Categories';
 
-const Pagecategory = () => (
-  <div className="status-btn">
-    <button type="button">Check status</button>
-  </div>
-);
+const Pagecategory = () => <Categories />;
 
 export default Pagecategory;
