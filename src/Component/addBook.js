@@ -38,7 +38,7 @@ const BookAdd = () => {
 
   return (
     <div>
-      <h3>Register new books</h3>
+      <h3>Enter New Books</h3>
       <form className="add-form" onSubmit={addEventBookHandler}>
         <input type="text" id="title" name="title" placeholder="Book title.." onChange={updateTitle} required />
         <input type="text" id="author" name="author" placeholder="Author.." onChange={updateAuthor} required />
