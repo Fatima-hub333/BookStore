@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaUser } from 'react-icons/fa';
 import links from '../routes';
-import './style/navibar.css';
+import './style/navbar.css';
 
 const Navbar = () => (
   <div className="navcont">
