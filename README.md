@@ -23,6 +23,7 @@ Additional description about the project and its features.
 - Technologies used
   - github
   - npm
+## [Live Demo](https://admirable-pie-21357b.netlify.app/)
 
 ## Getting Started
 
